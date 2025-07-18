@@ -94,12 +94,12 @@
     </header>
     <main>
         <section class="relative">
-            <video class="min-[600px]:hidden" src="images/mobile.mp4" class="box-border " autoplay muted>
+            <video class="min-[600px]:hidden" src="images/mobile.mp4" class="box-border " autoplay muted loop>
             </video>
-            <video class="min-[601px]:block hidden" src="images/lapL.mp4 " autoplay muted></video>
+            <video class="min-[601px]:block hidden" src="images/lapL.mp4 " autoplay muted loop></video>
             <div
                 class="absolute max-w-[560px]  top-[30%] min-[1024]:w-[560px] max-[600px]:text-center max-[600px]:mx-[32px] text-white min-[600px]:ml-[40px] ">
-                <h1 class="text-[40px] leading-[50px] font-medium">Canada's Most Loved Office Furniture</h1>
+                <h1 class="text-[40px]  leading-[50px] font-medium">Canada's Most Loved Office Furniture</h1>
                 <p class="text-[14px]  mt-[8px]">Ergonomic essential for a great workday. Top rated by wired, Forbes,
                     Wirecutter and 400,000+ custmer</p>
                 <a class="h-[51px] max-[600px]:w-[100%] w-[260px] bg-white block text-[#314438] flex items-center justify-center text-[14px] font-bold mt-[16px]"
@@ -233,7 +233,7 @@
             <div class="">
                 <div class="max-[600px]:mx-[24px] max-w-[870px] max-[960px]:mx-[64px] min-[960px]:mx-auto py-[60px]">
                     <h2
-                        class="whitespace-pre-wrap text-[28px] mx[824px]-text-[36px] min-[825px]:text-[40px] text-center">
+                        class=" text-[28px] mx[824px]-text-[36px] min-[825px]:text-[40px] text-center">
                         We do office furniture a littile bite different</h2>
                     <p class="text-[16px]  pt-[10px] text-[#314438] font-thin text-center">That means easy, affordable,
                         and flexible—whether you’re furnishing your home office or your business.</p>
@@ -274,7 +274,7 @@
                             <p class="pt-[20px]">TRADE-IN FLEXIBILITY</p>
                         </div>
                         <div
-                            class="absolute top-0 left-[50%] z-10 text-white px-[10px] -translate-x-[50%] -translate-y-[50%]        rotate-357 bg-[#8cc1d2]">
+                            class="absolute top-0 left-[50%] z-10 text-white px-[10px] -translate-x-[50%] -translate-y-[50%]       rotate-357 bg-[#8cc1d2]">
                             <span class="text-[10px]  text-center ">FOR TEAM OFFICE</span>
                         </div>
                     </div>
@@ -284,11 +284,11 @@
         </section>
         <section class="">
             <div class="max-[600px]:mx-[24px] max-w-[770px] max-[960px]:mx-[64px] min-[830px]:mx-auto py-[60px]">
-                <div class="flex flex-row gap-[50px] h-[100%] max-md:flex-col-reverse">
-                    <div class="flex justify-center items-center">
-                        <div class="w-[100%] text-center h-[100%] ">
-                            <h3 class="text-[32px] mb-[16px]">We sell direct and share the savings.</h3>
-                            <p class="mb-[26px]">We cut out middlemen and maintain a lean line of modular inventory to
+                <div class="flex flex-row gap-[50px] h-[100%] max-[769px]:flex-col-reverse">
+                    <div class="flex flex-row justify-center items-center w-[100%]">
+                        <div class=" text-center h-[100%] flex flex-col justify-center">
+                            <h3 class="text-[32px] max-md:text-[24px]  mb-[16px]">We sell direct and share the savings.</h3>
+                            <p class="mb-[26px] max-md:text-[14px]">We cut out middlemen and maintain a lean line of modular inventory to
                                 save
                                 you up to 50% compared to traditional office furniture of similar quality.</p>
                             <button class="px-[53px] py-[15px] bg-[#314438] text-white font-thin text-[13px]"><a
@@ -296,21 +296,23 @@
                                     STORY</a></button>
                         </div>
                     </div>
-                    <div class="w-[100%] flex flex-row text-center gap-[20px]">
+                    <div class="w-[100%] flex flex-row justify-center text-center  sm:gap-[20px]">
 
                         <div>
-                            <ul
-                                class="flex flex-col w-[100%]  w-[100%] justify-between items-end text-[#AEB6B0] text-[13px] h-[100%] pt-[20px] gap-[40px]">
-                                <li class=" w-[100%] mt-[10px] mx-[10px]">Delivery, Assembly & Disposal</li>
-                                <li class=" w-[100%] mt-[10px] mx-[10px]">Dealer Markup</li>
-                                <li class=" w-[100%] mt-[10px] mx-[10px]">Manufacturer Markup</li>
-                                <li class=" w-[100%] mt-[10px] mx-[10px]">Materials & Manufacturer</li>
-                            </ul>
+                           
+                                <ul
+                                    class="flex flex-col w-[100%]  justify-between items-end text-[#AEB6B0] text-[13px] h-[100%] pt-[20px] gap-[40px] ">
+                                    <li class=" w-[100%] mt-[10px] mx-[10px]">Delivery, Assembly & Disposal</li>
+                                    <li class=" w-[100%] mt-[10px] mx-[10px]">Dealer Markup</li>
+                                    <li class=" w-[100%] mt-[10px] mx-[10px]">Manufacturer Markup</li>
+                                    <li class=" w-[100%] mt-[10px] mx-[10px]">Materials & Manufacturer</li>
+                                </ul>
+                            
                         </div>
-                        <div class="flex flex-row  ">
+                        <div class="flex flex-row   ">
                             <div class="min-w-[60px] mr-[10px] h-[394px] bg-[#AEB6B0]"></div>
                             <div class="min-w-[60px] h-[394px] bg-[#314438] border-2 border-dashed ">
-                                <div class="h-[50%] bg-white ">save up <br> 50%</div>
+                                <div class="h-[50%] bg-white text-center flex items-end ">save up <br> 50%</div>
                             </div>
                         </div>
                     </div>
@@ -356,7 +358,7 @@
                         <span class="text-[#314438]">$640+</span>
                         <p class="text-[12px] text-[#666666]">Exceptional design for less</p>
                     </div>
-                    <div class="bg-white border-solid p-[20px] hidden lg:block">
+                    <div class="bg-white border-solid p-[20px] hidden ">
                         <img class="max-w-[500px] w-[100%] object-cover px-auto " src="images/product2.jpg" alt="">
                         <p class="font-semibold ">
                             Desks
@@ -364,20 +366,18 @@
                         <span class="text-[#314438]">$640+</span>
                         <p class="text-[12px] text-[#666666]">Exceptional design for less</p>
                     </div>
-
-  
-
                 </div>
                 <div class="text-center mt-[40px]  min-[900px]:mt-[100px]">
-                        <a class=" border-2 border-solid py-[15px] px-[53px] text-[10px] bg-[#314438] max-w-[249px] max-h-[49px] text-white font-bold"
-                            href="#">SEE ALL PRODUCT</a>
-                    </div>
+                    <a class=" border-2 border-solid py-[15px] px-[53px] text-[10px] bg-[#314438] max-w-[249px] max-h-[49px] text-white font-bold"
+                        href="#">
+                        SEE ALL PRODUCT
+                    </a>
+                </div>
             </div>
         </section>
-        
     </main>
     <footer>
-        
+
     </footer>
 </body>
 
